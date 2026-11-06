@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		36695174C9289FEF440ED421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC6BA48B7A0B24D0FDAFB60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063D9581149C63EFC196BD93;
+			remoteInfo = GolfCoach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDB0947A909F263603A392BD /* GolfCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231B7839650A20B3BF4F3876 /* GolfCoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfCoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7E548A6EB5F48E23B1A8DB98 /* GolfCoach */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GolfCoach;
+			sourceTree = "<group>";
+		};
+		C4FF2091EF06A3ABA52439B1 /* GolfCoachTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GolfCoachTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6F707685D9B823AA0C64112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA03C8DF9C20813862D70ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5299AAF78E84E630F461CAFA = {
+			isa = PBXGroup;
+			children = (
+				7E548A6EB5F48E23B1A8DB98 /* GolfCoach */,
+				C4FF2091EF06A3ABA52439B1 /* GolfCoachTests */,
+				9F4DCE5236569FD9E67B6737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4DCE5236569FD9E67B6737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB0947A909F263603A392BD /* GolfCoach.app */,
+				231B7839650A20B3BF4F3876 /* GolfCoachTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		063D9581149C63EFC196BD93 /* GolfCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF34598D282F7C3E101D605 /* Build configuration list for PBXNativeTarget "GolfCoach" */;
+			buildPhases = (
+				8A92DEFBA14E734CC53E5FDE /* Sources */,
+				C6F707685D9B823AA0C64112 /* Frameworks */,
+				8912757BF8C4C0AA68C5FE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E548A6EB5F48E23B1A8DB98 /* GolfCoach */,
+			);
+			name = GolfCoach;
+			packageProductDependencies = (
+			);
+			productName = GolfCoach;
+			productReference = CDB0947A909F263603A392BD /* GolfCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BAB5E48A4400D6E96564FE6 /* GolfCoachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A9899F7A2985644C0935F8 /* Build configuration list for PBXNativeTarget "GolfCoachTests" */;
+			buildPhases = (
+				4732AB24F14EBF518B6D7CF0 /* Sources */,
+				EA03C8DF9C20813862D70ACB /* Frameworks */,
+				1FE33035439C4DE2F05380C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F7ED4AFC6B6A14ADB8FF0A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C4FF2091EF06A3ABA52439B1 /* GolfCoachTests */,
+			);
+			name = GolfCoachTests;
+			packageProductDependencies = (
+			);
+			productName = GolfCoachTests;
+			productReference = 231B7839650A20B3BF4F3876 /* GolfCoachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC6BA48B7A0B24D0FDAFB60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					063D9581149C63EFC196BD93 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9BAB5E48A4400D6E96564FE6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 063D9581149C63EFC196BD93;
+					};
+				};
+			};
+			buildConfigurationList = 81A2DD23EE25C9B2D6EDDFC4 /* Build configuration list for PBXProject "GolfCoach" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5299AAF78E84E630F461CAFA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9F4DCE5236569FD9E67B6737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063D9581149C63EFC196BD93 /* GolfCoach */,
+				9BAB5E48A4400D6E96564FE6 /* GolfCoachTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8912757BF8C4C0AA68C5FE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE33035439C4DE2F05380C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A92DEFBA14E734CC53E5FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4732AB24F14EBF518B6D7CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F7ED4AFC6B6A14ADB8FF0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 063D9581149C63EFC196BD93 /* GolfCoach */;
+			targetProxy = 36695174C9289FEF440ED421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5214CA400DD5433303B0C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3482EEF47244202C15ECF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51D4844C5BDEB9E38D088946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Golf Coach";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiryqthomas.golfcoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		588ACCE4FB0DF5F48B26EA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Golf Coach";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiryqthomas.golfcoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		21841E87FB92641AD239786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiryqthomas.golfcoach.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfCoach.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GolfCoach";
+			};
+			name = Debug;
+		};
+		844CB25A5418FC2F17750DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiryqthomas.golfcoach.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfCoach.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GolfCoach";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81A2DD23EE25C9B2D6EDDFC4 /* Build configuration list for PBXProject "GolfCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5214CA400DD5433303B0C56 /* Debug */,
+				D3482EEF47244202C15ECF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF34598D282F7C3E101D605 /* Build configuration list for PBXNativeTarget "GolfCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D4844C5BDEB9E38D088946 /* Debug */,
+				588ACCE4FB0DF5F48B26EA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A9899F7A2985644C0935F8 /* Build configuration list for PBXNativeTarget "GolfCoachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21841E87FB92641AD239786B /* Debug */,
+				844CB25A5418FC2F17750DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC6BA48B7A0B24D0FDAFB60 /* Project object */;
+}
